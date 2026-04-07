@@ -1,7 +1,12 @@
 aid: wr-berkley
-url: https://raw.githubusercontent.com/api-evangelist/wr-berkley/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/wr-berkley/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.wr-berkley.com
+description: >-
+  W. R. Berkley Corporation is an insurance holding company that is one of the largest
+  commercial lines writers in the United States and operates worldwide in two segments:
+  insurance and reinsurance.
