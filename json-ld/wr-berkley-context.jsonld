@@ -1,0 +1,91 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "wrb": "https://www.berkley.com/vocab#",
+    "ins": "https://www.omg.org/spec/FIBO/Insurance/",
+
+    "InsuranceHoldingCompany": {
+      "@id": "schema:Organization",
+      "@type": "@id"
+    },
+    "name": "schema:name",
+    "description": "schema:description",
+    "url": "schema:url",
+    "ticker": "schema:tickerSymbol",
+
+    "InsurancePolicy": {
+      "@id": "wrb:InsurancePolicy",
+      "@type": "@id"
+    },
+    "policyNumber": "wrb:policyNumber",
+    "policyHolder": {
+      "@id": "wrb:policyHolder",
+      "@type": "@id"
+    },
+    "effectiveDate": {
+      "@id": "schema:startDate",
+      "@type": "xsd:date"
+    },
+    "expirationDate": {
+      "@id": "schema:endDate",
+      "@type": "xsd:date"
+    },
+    "premium": {
+      "@id": "wrb:premium",
+      "@type": "xsd:decimal"
+    },
+
+    "Claim": {
+      "@id": "wrb:Claim",
+      "@type": "@id"
+    },
+    "claimNumber": "wrb:claimNumber",
+    "claimDate": {
+      "@id": "wrb:claimDate",
+      "@type": "xsd:date"
+    },
+    "lossAmount": {
+      "@id": "wrb:lossAmount",
+      "@type": "xsd:decimal"
+    },
+    "claimStatus": "wrb:claimStatus",
+
+    "CoverageType": {
+      "@id": "wrb:CoverageType",
+      "@type": "@id"
+    },
+    "commercialLines": "wrb:commercialLines",
+    "workersCompensation": "wrb:workersCompensation",
+    "professionalLiability": "wrb:professionalLiability",
+    "excessAndSurplusLines": "wrb:excessAndSurplusLines",
+    "reinsurance": "wrb:reinsurance",
+
+    "Underwriting": {
+      "@id": "wrb:Underwriting",
+      "@type": "@id"
+    },
+    "lossRatio": {
+      "@id": "wrb:lossRatio",
+      "@type": "xsd:decimal"
+    },
+    "combinedRatio": {
+      "@id": "wrb:combinedRatio",
+      "@type": "xsd:decimal"
+    },
+    "earnedPremium": {
+      "@id": "wrb:earnedPremium",
+      "@type": "xsd:decimal"
+    },
+
+    "OperatingUnit": {
+      "@id": "schema:subOrganization",
+      "@type": "@id"
+    },
+    "jurisdiction": {
+      "@id": "schema:jurisdiction",
+      "@type": "@id"
+    }
+  }
+}

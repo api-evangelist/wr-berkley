@@ -1,0 +1,91 @@
+vocabulary:
+  name: W. R. Berkley Vocabulary
+  description: >-
+    Domain vocabulary for W. R. Berkley Corporation, one of the largest
+    commercial lines property and casualty insurance holding companies in the
+    United States, operating across insurance and reinsurance segments.
+  version: '2026-05-03'
+  terms:
+    - term: Commercial Lines
+      definition: >-
+        Insurance products designed for businesses rather than individuals,
+        covering property, liability, workers' compensation, professional
+        liability, and specialty risks.
+      tags:
+        - Insurance
+        - Commercial
+    - term: Property And Casualty
+      definition: >-
+        A broad category of insurance covering damage to or loss of policyholder
+        property (property) and liability for damages to third parties (casualty).
+      tags:
+        - Insurance
+        - Coverage
+    - term: Reinsurance
+      definition: >-
+        Insurance purchased by an insurance company from one or more other
+        insurance companies to manage risk and reduce liability from large claims;
+        one of W. R. Berkley's two main business segments.
+      tags:
+        - Insurance
+        - Risk Management
+    - term: Workers Compensation
+      definition: >-
+        Employer-funded insurance providing wage replacement, medical care, and
+        rehabilitation to employees injured at work; BerkleyNet specializes in
+        this coverage.
+      tags:
+        - Insurance
+        - Employment
+    - term: Excess And Surplus Lines
+      definition: >-
+        Insurance for risks that standard admitted carriers are unwilling or
+        unable to cover due to unusual hazard characteristics; a key specialty
+        segment for Berkley.
+      tags:
+        - Insurance
+        - Specialty
+    - term: Admitted Carrier
+      definition: >-
+        An insurance company licensed and regulated by a state insurance
+        department to write insurance in that state, subject to state-filed rates
+        and forms.
+      tags:
+        - Insurance
+        - Regulation
+    - term: Loss Ratio
+      definition: >-
+        The ratio of incurred losses and loss adjustment expenses to earned
+        premiums; a key profitability metric for insurance companies.
+      tags:
+        - Finance
+        - Metrics
+    - term: Combined Ratio
+      definition: >-
+        The sum of the loss ratio and expense ratio; a measure below 100%
+        indicates an underwriting profit for the insurance company.
+      tags:
+        - Finance
+        - Metrics
+    - term: BerkleyNet
+      definition: >-
+        A W. R. Berkley subsidiary providing workers' compensation insurance
+        through a digital platform, offering online quoting, binding, and
+        policy management.
+      tags:
+        - Subsidiary
+        - Digital
+    - term: Monoline
+      definition: >-
+        Insurance coverage restricted to a single line of business or coverage
+        type; also the name of one of W. R. Berkley's business segments.
+      tags:
+        - Insurance
+        - Specialty
+    - term: Underwriting
+      definition: >-
+        The process of evaluating, selecting, and pricing insurance risks to
+        determine whether to accept a risk and at what premium.
+      tags:
+        - Insurance
+        - Risk Assessment

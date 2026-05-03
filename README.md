@@ -1,33 +1,38 @@
-# W.R. Berkley (wr-berkley)
-W.R. Berkley is a Fortune 500 company. This repository captures the APIs, developer tools, and machine-readable API artifacts for W.R. Berkley.
+# W. R. Berkley
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/wr-berkley/refs/heads/main/apis.yml)
+W. R. Berkley Corporation is one of the largest commercial lines property and casualty insurance holding companies in the United States. The company operates through more than 60 operating units in approximately 60 countries, with business segments in Insurance and Reinsurance. Subsidiaries include BerkleyNet (workers' compensation digital platform) and Berkley Risk Administrators.
 
-## Scope
+W. R. Berkley does not offer a public developer API, though subsidiary portals provide limited digital access for agents and policyholders. This repository documents the company's digital presence, domain vocabulary, and linked data context for API catalog purposes.
 
-- **Type:** Contract
-- **Position:** Consuming
-- **Access:** 3rd-Party
+## Company Profile
 
-## Tags:
+| Property | Value |
+|---|---|
+| Type | Commercial Lines Property & Casualty Insurance |
+| Ticker | WRB (NYSE) |
+| Fortune Ranking | Fortune 500 |
+| HQ | Greenwich, Connecticut |
 
- - Fortune 500
+## Portals
 
-## Timestamps
+- **BerkleyNet (Workers Compensation):** https://berkleynet.com/
+- **Berkley SIG Customer Portal:** https://myberkley.berkleysig.com/
+- **Berkley Risk:** https://www.berkleyrisk.com/
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-03-21
+## Artifacts
 
-## APIs
+### Vocabulary
 
-No public APIs have been documented yet. Contributions welcome.
+| File | Description |
+|---|---|
+| [wr-berkley-vocabulary.yml](vocabulary/wr-berkley-vocabulary.yml) | Domain vocabulary covering insurance, underwriting, claims, and commercial lines terminology |
 
-## Common Properties
+### JSON-LD
 
-- [Website](https://www.wr-berkley.com)
+| File | Description |
+|---|---|
+| [wr-berkley-context.jsonld](json-ld/wr-berkley-context.jsonld) | JSON-LD context mapping W. R. Berkley domain concepts to schema.org and FIBO insurance ontologies |
 
 ## Maintainers
 
-**FN:** API Evangelist
-
-**Email:** info@apievangelist.com
+**Kin Lane** - kin@apievangelist.com
