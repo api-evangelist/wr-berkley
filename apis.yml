@@ -26,6 +26,13 @@ access: Public
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wr-berkley.png
 tags:
   - Insurance
+  - Property and Casualty
+  - Commercial Lines
+  - Reinsurance
+  - Workers Compensation
+  - Fortune 500
+tags_raw:
+  - Insurance
   - Property And Casualty
   - Commercial Lines
   - Reinsurance
