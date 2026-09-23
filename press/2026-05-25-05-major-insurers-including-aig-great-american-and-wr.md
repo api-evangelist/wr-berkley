@@ -1,7 +1,9 @@
 ---
 title: Major insurers including AIG, Great American, and WR ...
 url: https://www.facebook.com/techcrunch/posts/major-insurers-including-aig-great-american-and-wr-berkley-are-asking-us-regulat/1200198688640663/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"W.R. Berkley" press release artificial intelligence'
 position: 5
 source: serpapi-google
