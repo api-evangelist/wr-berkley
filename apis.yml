@@ -50,12 +50,14 @@ tags_raw:
   - Workers Compensation
   - Fortune 500
 created: '2026-03-21'
-modified: '2026-05-03'
+modified: '2026-10-06'
 url: >-
   https://raw.githubusercontent.com/api-evangelist/wr-berkley/refs/heads/main/apis.yml
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://www.berkley.com/rss.xml
+    type: BlogRSS
   - type: DomainSecurity
     url: security/wr-berkley-domain-security.yml
   - type: Website
